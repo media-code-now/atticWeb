@@ -17,6 +17,19 @@
 	color: #ffffff;
 }
 
+.call {
+  position: fixed;
+  color:white;
+  background-color:rgb(27, 187, 86);
+  left: 0;
+  bottom:0;
+  border: 2px solid rgb(27, 187, 86);
+  border-radius:50%;
+  padding:5px 15px 5px 15px;
+  margin: 10px;
+  z-index:10000;
+}
+
 a:focus,
 button:focus {
 	outline: none !important;
@@ -41,6 +54,8 @@ select,
 textarea {
 	outline: none;
 }
+
+
 
 label {
 	margin-bottom: 0;
@@ -6093,7 +6108,7 @@ html.tablet .ui-to-top {
 	transform: rotate3d(0, 0, 1, 40deg);
 }
 
-.rd-navbar-collapse-toggle {
+/* .rd-navbar-collapse-toggle {
 	display: inline-block;
 	position: relative;
 	width: 48px;
@@ -6107,9 +6122,9 @@ html.tablet .ui-to-top {
 .rd-navbar-collapse-toggle span {
 	top: 50%;
 	margin-top: -3px;
-}
+} */
 
-.rd-navbar-collapse-toggle span, .rd-navbar-collapse-toggle span:before, .rd-navbar-collapse-toggle span:after {
+/* .rd-navbar-collapse-toggle span, .rd-navbar-collapse-toggle span:before, .rd-navbar-collapse-toggle span:after {
 	position: absolute;
 	width: 6px;
 	height: 6px;
@@ -6146,7 +6161,7 @@ html.tablet .ui-to-top {
 
 .rd-navbar-collapse-toggle.active span:after {
 	transform: translateY(-18px);
-}
+} */
 
 .rd-navbar-brand a {
 	display: inline-block;
